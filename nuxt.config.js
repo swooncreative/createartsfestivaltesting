@@ -29,7 +29,7 @@ export default {
         content:
           'CREATE! Arts Festival is a new community initiative of the Eastside Arts Society, bringing together local artists and the community to explore, learn and CREATE! art together through a series of affordable and accessible art workshops, and a public-participation art installation. Attendees of all ages will learn how to CREATE! art such as block printing, felt making, glass blowing, ceramics and painting from Eastside artists in a safe and comfortable outdoor space this summer. ',
       },
-      { hid: 'og:image', property: 'og:image', content: 'https://admin.createartsfestival.ca/app/uploads/CAF-logo.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://admincreateartsfestival.swooncreative.ca/app/uploads/CAF-logo.png' },
       { name: 'format-detection', content: 'telephone=no' },
       {
         hid: 'facebook-domain-verification',
@@ -38,7 +38,7 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://admin.createartsfestival.ca/app/uploads/FAVICON-01.png' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://admincreateartsfestival.swooncreative.ca/app/uploads/FAVICON-01.png' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap',
@@ -102,7 +102,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://admin.createartsfestival.ca/wp-json',
+    baseURL: 'https://https://admincreateartsfestival.swooncreative.ca/wp-json',
   },
 
   googleAnalytics: {

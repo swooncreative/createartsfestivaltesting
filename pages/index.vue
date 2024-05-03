@@ -203,7 +203,7 @@ export default {
     },
     readMore() {
       const url = this.homePageData.acf.hps1_button_url
-      if (url.includes('createartsfestival.ca')) {
+      if (url.includes('createartsfestival.swooncreative.ca')) {
         this.$router.push(this.getPath(url))
       } else {
         window.open(url, '_blank').focus();
@@ -244,7 +244,7 @@ export default {
         })
     },
     btnClick() {
-      if (this.homePageData.acf.hps2_button_url.includes('createartsfestival.ca')) {
+      if (this.homePageData.acf.hps2_button_url.includes('createartsfestival.swooncreative.ca')) {
         this.$router.push(this.getPath(this.homePageData.acf.hps2_button_url))
       } else {
         console.log('hello')

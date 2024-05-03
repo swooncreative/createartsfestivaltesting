@@ -137,7 +137,7 @@ export default {
           form.append(field, emailBody[field])
         }
 
-        await fetch('https://admin.createartsfestival.ca/wp-json/contact-form-7/v1/contact-forms/415/feedback', {
+        await fetch('https://admincreateartsfestival.swooncreative.ca//wp-json/contact-form-7/v1/contact-forms/415/feedback', {
           method: 'POST',
           body: form,
         }).then((res) =>

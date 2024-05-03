@@ -9,7 +9,7 @@ export default {
       if (url.includes('?')) {
         query = '?' + url.split('?')[1]
       }
-      return url.includes('createartsfestival.ca') ? `${new URL(url).pathname}${anchorLink}${query}` : url
+      return url.includes('createartsfestival.swooncreative.ca') ? `${new URL(url).pathname}${anchorLink}${query}` : url
     },
     addParallax() {
       const scrolled = window.scrollY
@@ -55,7 +55,7 @@ export default {
       }
     },
     linkProps(url) {
-      if (!url.includes('createartsfestival.ca')) {
+      if (!url.includes('createartsfestival.swooncreative.ca')) {
         return {
           is: 'a',
           href: url,

@@ -1,4 +1,4 @@
-const url = 'https://admin.createartsfestival.ca/wp-json'
+const url = 'https://admincreateartsfestival.swooncreative.ca//wp-json'
 export default ($axios) => (resource) => ({
   index() {
     return $axios.$get(`${url}${resource}`)

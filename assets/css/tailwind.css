@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+  @apply text-34 font-black font-display text-purple
+}
+
+.custom-text p {
+  @apply mb-3
+}
+
+.custom-text ul {
+  @apply font-light relative text-lg;
+}
+.custom-text li {
+  @apply mb-2.5;
+}
+
+.custom-text ul li {
+  position: relative;
+  padding-left: 1rem;
+}
+.custom-text ul li::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #a95ea4;
+}
+
+.custom-text a {
+  @apply text-purple text-lg underline mt-7 block font-medium hover:text-pink-300 transition-all duration-100 ease-in;
+}

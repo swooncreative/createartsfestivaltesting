@@ -39,10 +39,10 @@ export default {
     }
   },
   async fetch() {
-    this.footerData = await fetch('https://admin.createartsfestival.ca/wp-json/wp/v2/global_elements/46').then((res) => res.json())
-    this.menuData = await fetch('https://admin.createartsfestival.ca/wp-json/menus/v1/menus/2').then((res) => res.json())
-    this.navBarData = await fetch('https://admin.createartsfestival.ca/wp-json/wp/v2/global_elements/486').then((res) => res.json())
-    this.newsletterData = await fetch('https://admin.createartsfestival.ca/wp-json/wp/v2/global_elements/35').then((res) => res.json())
+    this.footerData = await fetch('https://admincreateartsfestival.swooncreative.ca/wp-json/wp/v2/global_elements/46').then((res) => res.json())
+    this.menuData = await fetch('https://admincreateartsfestival.swooncreative.ca/wp-json/menus/v1/menus/2').then((res) => res.json())
+    this.navBarData = await fetch('https://admincreateartsfestival.swooncreative.ca/wp-json/wp/v2/global_elements/486').then((res) => res.json())
+    this.newsletterData = await fetch('https://admincreateartsfestival.swooncreative.ca/wp-json/wp/v2/global_elements/35').then((res) => res.json())
   },
   mounted() {
     this.checkScreenSize()

@@ -16,6 +16,7 @@
       <div class="my-20 1md:mt-0 mx-auto 1md:mx-12 1xl:mx-12 | w-242 1md:w-141 1xl:w-202 | flex-shrink-0">
         <img src="../assets/images/create.gif" class="mx-auto" alt="Arts Create Festival Logo 2024" />
       </div>
+      <p>Test text</p>
       <div class="mb-10 w-full flex-grow">
         <p class="text-22 text-purple mb-8">{{ homePageData.acf.hps1_header }}</p>
         <div class="custom-text text-18 font-light" v-html="homePageData.acf.hps1_content">

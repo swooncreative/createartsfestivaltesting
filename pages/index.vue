@@ -14,7 +14,7 @@
     <Slider :data="homePageData.acf.slider_group[0]" :images="homePageData.acf.hp_banner" />
     <div class="1md:flex 1md:mt-100">
       <div class="my-20 1md:mt-0 mx-auto 1md:mx-12 1xl:mx-12 | w-242 1md:w-141 1xl:w-202 | flex-shrink-0">
-        <img src="../assets/images/create.gif" class="mx-auto" alt="Arts Create Festival Logo 2024" />
+        <img src="../assets/images/create.gif" class="mx-auto" alt="Arts Create Festival Logo test" />
       </div>
       <p>Test text</p>
       <div class="mb-10 w-full flex-grow">

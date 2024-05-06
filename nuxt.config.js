@@ -1,6 +1,7 @@
 export default {
   server: {
-    port: process.env.PORT || 3000, // default: 3000
+    // port: process.env.PORT || 3000, // default: 3000
+    port: 8000, // default: 3000
   },
 
   serverMiddleware: [
